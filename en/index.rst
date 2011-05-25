@@ -29,6 +29,8 @@ Contents
    Load PostGIS Database with Initial Geographic Data <load_postgis_database.rst>
    Install Mapnik Library Prerequisites <install_mapnik_library_prereq.rst>
    Install Mapnik Library <install_mapnik_library.rst>
+   Start to use Mapnik with simple example <GettingStarted-1.rst>
+   Start to use Mapnik with XML example <XMLGettingStarted.rst>
 
 ==================
 Indices and tables
@@ -44,6 +46,12 @@ Documentation writing guidelines
 
 .. toctree::
    :maxdepth: 1
-   
+
    documentation_guidelines.rst
+
+=========================
+Docs to organize but done
+=========================
+
+.. include:: toctree.inc
 

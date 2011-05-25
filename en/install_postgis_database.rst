@@ -5,7 +5,7 @@ Install PostGIS Database
 Install Postgresql and PostGIS
 ==============================
 
-Is everything up to date on your system?  
+Is everything up to date on your system?
 
 ::
 
@@ -18,19 +18,19 @@ queries.
 ::
 
   sudo aptitude install postgresql-8.4-postgis postgresql-contrib-8.4
-  sudo aptitude install postgresql-server-dev-8.4 
-  sudo aptitude install build-essential libxml2-dev 
+  sudo aptitude install postgresql-server-dev-8.4
+  sudo aptitude install build-essential libxml2-dev
   sudo aptitude install libgeos-dev libpq-dev libbz2-dev proj
- 
+
 Configure the Postgresql Server
 ===============================
 
 Edit the configuration file at
-/etc/postgresql/8.4/main/postgresql.conf to set some resonable
+/etc/postgresql/8.4/main/postgresql.conf to set some reasonable
 defaults.  These changes help when dealing with large quantities of
 data that are found in geographic some databases.
 
-These edits are found in four places in the configuration file. 
+These edits are found in four places in the configuration file.
 
 ::
 
@@ -42,11 +42,11 @@ These edits are found in four places in the configuration file.
 Configure runtime kernel parameters
 ===================================
 
-Edit /etc/sysctl.conf to set kernel parameters after a restart.  
+Edit /etc/sysctl.conf to set kernel parameters after a restart.
 
 ::
 
-  kernel.shmmax=268435456 
+  kernel.shmmax=268435456
 
 Then apply the same kernel parameter now, without restarting.
 
@@ -62,7 +62,7 @@ changes.
 
 ::
 
-  sudo /etc/init.d/postgresql-8.4 restart  
+  sudo /etc/init.d/postgresql-8.4 restart
 
 The database server should restart without errors or warnings
 
@@ -77,7 +77,7 @@ you will use this database name. Substitute your username for
 "username" in two places below. This should be the username that will
 render maps with mapnik.
 
-:: 
+::
 
   sudo -u postgres -i
   createuser username # answer yes for superuser
@@ -99,6 +99,10 @@ This should respond with many lines ending with
    |  ...
    |  CREATE FUNCTION
    |  COMMIT
+
+::
+
+  psql -f /usr/share/postgresql/8.4/contrib/spatial_ref_sys.sql -d gis
 
 Substitute your username for "username" in two places in the next
 line. This should be the username that will render maps with mapnik.
@@ -134,6 +138,9 @@ Replies with many lines ending with
 Set SRID for PostGIS Database
 =============================
 
+This step is now not needed anymore, spatial_ref_sys.sql already contains
+reference to the projection. Only here as a reminder.
+
 Set the Spatial Reference Identifier (SRID) on the new database.
 
 ::
@@ -143,13 +150,4 @@ Set the Spatial Reference Identifier (SRID) on the new database.
 Should reply with
 
    |  INSERT 0 1
-
-
-
-
-
-
-
-
-
 
