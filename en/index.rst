@@ -49,9 +49,3 @@ Documentation writing guidelines
 
    documentation_guidelines.rst
 
-=========================
-Docs to organize but done
-=========================
-
-.. include:: toctree.inc
-

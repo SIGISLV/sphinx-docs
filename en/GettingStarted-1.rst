@@ -118,7 +118,7 @@ Then back in your normal shell type:
 Or navigate to your base directory and open world.png and the result should look like this:
 
 .. _world:
-.. figure::  ./_images/world.png
+.. figure::  ../_images/world.png
 
 
 Step 3
@@ -186,4 +186,6 @@ Finally run the script with the command:
 To view the XML approach to make this same map head over to :doc:`XMLGettingStarted XmlGettingStarted / Tutorial 2 <XMLGettingStarted>` which shows the use of XML map configurations.
 
 To download this script along with other tutorial scripts see: http://code.google.com/p/mapnik-utils/
+
+Atached file :download:`world.png <../_images/world.png>`.
 

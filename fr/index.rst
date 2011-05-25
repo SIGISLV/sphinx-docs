@@ -50,5 +50,3 @@ Guide d'aide à la rédaction de documentation
 
    documentation_guidelines.rst
 
-.. include:: toctree.inc
-

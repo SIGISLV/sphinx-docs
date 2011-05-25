@@ -58,7 +58,7 @@ Ensuite, appliquer ce même paramètre du noyau maintenant mais dans redémarrer
   sudo sysctl kernel.shmmax=268435456
 
 Redémarrer le serveur Postgresql
-===============================
+================================
 
 Restart the postgresql database server to enable the configuration
 changes.

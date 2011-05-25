@@ -148,7 +148,7 @@ Ou naviguer dans votre répertoire et ouvrir world.png avec un résultat qui
 devrait ressembler à celui-ci-dessous:
 
 .. _world:
-.. figure::  ./_images/world.png
+.. figure::  ../_images/world.png
 
 
 Etape 3
@@ -230,5 +230,5 @@ Pour télécharger, ce script ainsi avec d'autres scripts de tutoriels,
 voir http://code.google.com/p/mapnik-utils/
 
 
-Pièce jointe :download:`world.png <_images/world.png>`.
+Pièce jointe :download:`world.png <../_images/world.png>`.
 
