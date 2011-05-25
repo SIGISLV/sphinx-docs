@@ -1,5 +1,5 @@
 # sphinx build folder
-_build
+build
 
 # Compiled source #
 ###################
@@ -21,7 +21,7 @@ _build
 *.jar
 *.rar
 *.tar
-*.zip
+#*.zip
 
 # Logs and databases #
 ######################
@@ -39,3 +39,4 @@ Thumbs.db
 # Editor backup files #
 #######################
 *~
+

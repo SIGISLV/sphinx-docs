@@ -12,7 +12,7 @@
     <title>
       Attachment –
       Mapnik Wiki &amp; Documentation – Trac
-    </title><link rel="search" href="/search" /><link rel="help" href="/wiki/TracGuide" /><link rel="alternate" href="/raw-attachment/wiki/XMLGettingStarted/world_borders.zip" type="application/zip; charset=iso-8859-15" title="Original Format" /><link rel="up" href="/wiki/XMLGettingStarted" title="XMLGettingStarted" /><link rel="start" href="/wiki" /><link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/code.css" type="text/css" /><link rel="shortcut icon" href="/chrome/site/favicon.ico" type="image/x-icon" /><link rel="icon" href="/chrome/site/favicon.ico" type="image/x-icon" /><link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search Mapnik Wiki &amp; Documentation" /><script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script><script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
+    </title><link rel="search" href="/search" /><link rel="help" href="/wiki/TracGuide" /><link rel="alternate" href="/raw-attachment/wiki/XMLGettingStarted/hello_world.zip" type="application/zip; charset=iso-8859-15" title="Original Format" /><link rel="up" href="/wiki/XMLGettingStarted" title="XMLGettingStarted" /><link rel="start" href="/wiki" /><link rel="stylesheet" href="/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/chrome/common/css/code.css" type="text/css" /><link rel="shortcut icon" href="/chrome/site/favicon.ico" type="image/x-icon" /><link rel="icon" href="/chrome/site/favicon.ico" type="image/x-icon" /><link type="application/opensearchdescription+xml" rel="search" href="/search/opensearch" title="Search Mapnik Wiki &amp; Documentation" /><script type="text/javascript" src="/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/chrome/common/js/trac.js"></script><script type="text/javascript" src="/chrome/common/js/search.js"></script><script type="text/javascript" src="/chrome/common/js/ie_pre7_hacks.js"></script>
     <link rel="stylesheet" type="text/css" href="/chrome/site/style.css" />
   </head>
   <body>
@@ -49,18 +49,21 @@
         <hr />
       </div>
     <div id="content" class="attachment">
-        <h1><a href="/wiki/XMLGettingStarted">XMLGettingStarted</a>: world_borders.zip</h1>
+        <h1><a href="/wiki/XMLGettingStarted">XMLGettingStarted</a>: hello_world.zip</h1>
         <table id="info" summary="Description">
           <tbody>
             <tr>
               <th scope="col">
-                File world_borders.zip, <span title="301931 bytes">294.9 kB</span>
-                (added by springmeyer,  <a class="timeline" href="/timeline?from=2010-03-19T21%3A34%3A37Z-0500&amp;precision=second" title="2010-03-19T21:34:37Z-0500 in Timeline">14 months</a> ago)
+                File hello_world.zip, <span title="9827 bytes">9.6 kB</span>
+                (added by springmeyer,  <a class="timeline" href="/timeline?from=2008-04-29T21%3A43%3A56Z-0400&amp;precision=second" title="2008-04-29T21:43:56Z-0400 in Timeline">3 years</a> ago)
               </th>
             </tr>
             <tr>
               <td class="message searchable">
-                
+                <p>
+Tutorial for Hello World Mapnik examples using pure python and XML config file
+</p>
+
               </td>
             </tr>
           </tbody>
@@ -68,8 +71,8 @@
         <div id="preview" class="searchable">
       <p>
         <strong>HTML preview not available</strong>,
-            since the file size exceeds 262144 bytes.
-        Try <a href="/raw-attachment/wiki/XMLGettingStarted/world_borders.zip">downloading</a> the file instead.
+            since no preview renderer could handle it.
+        Try <a href="/raw-attachment/wiki/XMLGettingStarted/hello_world.zip">downloading</a> the file instead.
       </p>
         </div>
     </div>
@@ -77,7 +80,7 @@
       <h3>Download in other formats:</h3>
       <ul>
         <li class="last first">
-          <a rel="nofollow" href="/raw-attachment/wiki/XMLGettingStarted/world_borders.zip">Original Format</a>
+          <a rel="nofollow" href="/raw-attachment/wiki/XMLGettingStarted/hello_world.zip">Original Format</a>
         </li>
       </ul>
     </div>
