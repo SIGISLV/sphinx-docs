@@ -543,3 +543,8 @@ ul.keywordmatches li.goodmatch a {
     font-weight: bold;
 }
 
+/* Overloading css property from pygments.css */
+.highlight {
+    background: none repeat scroll 0 0 #FBF8F5 !important;
+}
+
