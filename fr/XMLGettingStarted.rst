@@ -12,7 +12,7 @@ Assurez-vous d'avoir Mapnik installé et d'avoir passé avec succès
   les styles de carte avec un fichier XML séparé.
 
 * C'est une approche pratique pour gérer vos styles/règles pour la carte
-  séparément de votre code python, et cel peut être avantageux pour gérer des
+  séparément de votre code python, et celà peut être avantageux pour gérer des
   formatages très complexes.
   Par conséquent, c'est un fichier de configuration XML qui est utilisé par le
   projet OpenStreetMap pour faire des filtrages par attributs très importants
@@ -33,7 +33,7 @@ utiliser Mapnik avec un exemple simple <GettingStarted-1>`.
   profit des capacités de Mapnik.
 
   * Voir le script :source:`rundemo.py <trunk/demo/python/rundemo.py>` dans les
-    téléchargements  pour des usages plus avancés de Mapnik avec Python.
+    téléchargements pour des usages plus avancés de Mapnik avec Python.
 
   * Voir :source:`l'exemple du XML OSM
     <trunk/tests/data/good_maps/osm-styles.xml>` dans le répertoire de tests pour
@@ -41,9 +41,9 @@ utiliser Mapnik avec un exemple simple <GettingStarted-1>`.
 
 
 2) Un XML de configuration qui utilise un jeu de données des contours mondiaux
-avec les attributs de population pour créer une carte chloroplèthe par taille
+avec les attributs de population pour créer une carte choroplèthe par taille
 de la population. C'est dans le but d'introduire l'utilisation des règles de
-filtrage et de gestion des étiquettes avec un XML
+filtrage et de gestion des étiquettes avec un XML.
 
 Note: Le code pour l'exemple 1, ainsi que le code de :doc:`Commencer à
 utiliser Mapnik avec un exemple simple <GettingStarted-1>` peut être
@@ -56,7 +56,7 @@ Etape 1
 
 **Hello World XML**
 
-En premier, vous aurez toujours besoin  d'un script python qui définit les
+En premier, vous aurez toujours besoin d'un script python qui définit les
 paramètres basiques de la carte et qui pointe vers le fichier XML de
 configuration:
 
@@ -73,7 +73,7 @@ configuration:
 
 * Copier ce code et sauver le fichier sous le nom **world_map.py**
 
-Ensuite, vous allez devoir créerle fichier **world_styles.xml**  référencé dans
+Ensuite, vous allez devoir créer le fichier **world_styles.xml** référencé dans
 **world_map.py**
 
 Note: vous devrez spécifier le chemin vers le même `fichier shape des contours
@@ -107,7 +107,7 @@ utilisé dans le tutoriel 1
     </Map>
 
 
-* Copier ce XML et sauver le fichier **world_styles.xml** au même niveau
+* Copier ce fichier XML et sauver le fichier **world_styles.xml** au même niveau
   que le script **world_map.py**
 
 Maintenant, lancer ce script avec la commande:
@@ -136,7 +136,7 @@ des pays <../_files/world_borders.zip>`.
 
 * Note: Ce fichier est originalement issu de `Thematic Mapping Blog
   <http://thematicmapping.org/downloads/world_borders.php>`_. La version
-  jointe est le fichier shape fourni le plus simple ici avec quelques
+  jointe est le fichier shape fourni le plus simple comportant quelques
   modifications pour éviter des problèmes quand la carte est générée dans des
   projections telles que le 900913/3785 (ce tutoriel n'utilise pas cette
   projection, donc vous pouvez utiliser les fichiers shape originaux
