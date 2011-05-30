@@ -1,27 +1,25 @@
-**************************************************
-Load PostGIS Database with Initial Geographic Data
-**************************************************
+*******************************************************************
+Alimenter la base de données PostGIS avec des données géographiques
+*******************************************************************
 
-There are several ways to populate your geographic database.  Choose
-only one of the following:
+Il y a plusieurs manières d'alimenter la base de données. Choisir
+une des façons suivantes:
 
-- OpenStreetMap "Planet" File
+- Fichier OpenStreetMap "Planet"
   
-  The OpenStreetMap "Planet" file contains data for the entire planet.
-  This is a large file and can stress computers ( and first-time users
-  ).
+  Le fichier OpenStreetMap "Planet" est une copie de la base de données mondiale.
+  Ce fichier est volumineux et peut par conséquent engendrer quelques problèmes informatiques (également pour les nouveaux utilisateurs).
 
-- OpenStreetMap "Extract" File
+- Fichier OpenStreetMap "Extract"
 
-  OpenStreetMap "Extract" files contain the OpenStreetMap data for a
-  single region, usually a single country, state or province.  These
-  are more managable than the "Planet" file while still often being
-  substantial.
+  Les fichiers OpenStreetMap "Extract" contiennent les données OpenStreetMap
+  pour une région donnée, souvent un pays, un état ou une région. Ils sont
+  plsu simple d'utilisation que le fichier "Planet".
 
 - OpenStreetMap API Bounding Box
 
-  Smaller areas, sometimes town-sized, can be downloaded through the
-  OpenStreetMap API.
+  De plus petites zones géographiques, à l'échelle d'une ville par exemple, peuvent 
+  être obtenues l'API OpenStreetMap.
 
 - Postgresql dump file
 
