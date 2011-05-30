@@ -23,21 +23,21 @@ une des façons suivantes:
 
 - Postgresql dump file
 
-  
-OpenStreetMap Planet File
-=========================
 
-Aquire the complete OpenStreetMap database, also called the "planet
-file" and load it in to the PostGIS database.
+Fichier OpenStreetMap "Planet"
+==============================
 
-Aquire the Planet File
-----------------------
+Récupérer la base de données complète OpenStreetMap, appelée également 
+"fichier planet" et charger-la dans la base de données PostGIS.
 
-A new "planet" file is published approximately each week. The mirror
-and archives of the "planet" files are found at
-http://planet.openstreetmap.org/ . In July 2010 the planet file was
-about 10GB in length. If you are not interested in the entire planet
-you can choose to download an extract file instead.
+Récupérer le fichier planet
+---------------------------
+
+Un nouveau "planet" est publié environ toutes les semaines. Le miroir 
+et les archives sont disponibles à l'adresse http://planet.openstreetmap.org/ .
+En juillet 2010 le fichier planet pesait environ 10 GB. Si vous n'êtes pas 
+intéressé par la base de données complète, vous pouvez choisir de télécharger 
+une extraction.
 
 Install the Planet File
 -----------------------
