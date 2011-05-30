@@ -222,7 +222,7 @@ Lancer le script avec la commande:
   et essayer de changer les dimensions, les couleurs ou la source de donnée
   (en n'oubliant pas de choisir la bonne projection).
 
-Pour voir l'approche XML pour générer la même carte, lisez le
+Pour générer la même carte avec XML, lisez le
 :doc:`Commencez avec mapnik et le XML (tutoriel 2) <XMLGettingStarted>` qui
 montre l'usage du XML pour la configuration de la carte.
 
