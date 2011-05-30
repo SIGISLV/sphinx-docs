@@ -12,7 +12,7 @@ Est-ce que tout est à jour sur notre système?
   sudo aptitude update
   sudo aptitude safe-upgrade
 
-Installer Postgresql et l'extension PostGIS pour permettre d'utiliser des
+Installer PostgreSQL et l'extension PostGIS pour permettre d'utiliser des
 requêtes géographiques.
 
 ::
@@ -22,12 +22,12 @@ requêtes géographiques.
   sudo aptitude install build-essential libxml2-dev
   sudo aptitude install libgeos-dev libpq-dev libbz2-dev proj
 
-Configurer le serveur Postgresql
+Configurer le serveur PostgreSQL
 ================================
 
 Editer le fichier de configuration situé dans
 /etc/postgresql/8.4/main/postgresql.conf pour définir certains des
-paramètres par défaut. Ces changements aident quand on doit gérer des grandes
+paramètres par défaut. Ces changements aident lorsque l'on doit gérer des grandes
 quantités de données telles qu'on peut les trouver dans certaines bases de
 données géographiques.
 
@@ -51,17 +51,16 @@ redémarrage.
 
   kernel.shmmax=268435456
 
-Ensuite, appliquer ce même paramètre du noyau maintenant mais dans redémarrer.
+Ensuite, appliquer ce même paramètre du noyau maintenant mais sans redémarrer.
 
 ::
 
   sudo sysctl kernel.shmmax=268435456
 
-Redémarrer le serveur Postgresql
+Redémarrer le serveur PostgreSQL
 ================================
 
-Restart the postgresql database server to enable the configuration
-changes.
+Redémarrer le serveur PostgreSQL pour prendre en compte les modifications de configuration.
 
 ::
 
@@ -73,7 +72,7 @@ d'avertissements
    |  * Restarting PostgreSQL 8.4 database server
    |    ...done.
 
-Créer la base de données Postgresql
+Créer la base de données PostgreSQL
 ====================================
 
 Créer la base de données nommée "gis". Certains des futurs outils supposerons
@@ -112,7 +111,7 @@ puis lancer
 
 
 Substituer votre nom d'utilisateur "username" dans les deux emplacements de la
-ligne suivante. C'est cette utilisateur qui doit être utilisé pour générer les
+ligne suivante. C'est cet utilisateur qui doit être utilisé pour générer les
 cartes avec mapnik.
 
 ::
@@ -125,7 +124,7 @@ La réponse devrait être du type
    |  ALTER TABLE
    |  ALTER TABLE
 
-Permettre de mettre à jour les données OpenStreetMap
+Permettre la mise à jour des données OpenStreetMap
 ====================================================
 
 Cette étape optionnelle est seulement requise si vous prévoyez de faire des
