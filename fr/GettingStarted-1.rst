@@ -23,7 +23,7 @@ et si vous n'avez pas de messages d'erreur, vous êtes sur le bon chemin. Dans
 le cas contraire, vous allez devoir encore vérifier votre installation.
 
 .. note:: Si vous avez compilé mapnik en mode debug, vous devriez voir
-   apparaitre le listing des source de données utilisables, incluant:
+   apparaître le listing des source de données utilisables, incluant:
 
 .. sourcecode:: python
 
@@ -45,8 +45,8 @@ Etape 2
 
 Le code ci-dessous peut être coller dans votre interpréteur python. Idéalement,
 copier ligne par ligne le code pour confirmer que chaque étape fonctionne. Les
-lignes commentées (#) devrait pouvoir être coller sans problème mais la
-configuration votre interpréteur pourra dans certains cas causer des erreurs.
+lignes commentées (#) devrait pouvoir être collées sans problème mais la
+configuration de votre interpréteur pourra dans certains cas causer des erreurs.
 
  * Voir le bout de code (snippet) à l'étape 3 pour un code sans commentaires.
 
