@@ -13,7 +13,7 @@ De quoi a-t-on besoin pour débuter?
 
 Premièrement, vous devez installer la bibliothèque Mapnik sur votre système.
 Il y a deux manières basiques de le faire, vous pouvez télécharger des binaires
-(des exécutables) ou compiler votre librairie vous même depuis les source.
+(des exécutables) ou compiler votre librairie vous même depuis les sources.
 L'installation depuis les sources est nettement plus comlexe et est documentée
 dans Lien vers le document
 
