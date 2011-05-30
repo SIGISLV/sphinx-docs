@@ -6,7 +6,7 @@ Etape 1
 -------
 
 Assurez- vous d'avoir mapnik installé. En fonction de votre chemin
-d'installation, vous aurez peut être besoin de modifier le chemin python
+d'installation, vous aurez peut-être besoin de modifier le chemin python
 PYTHONPATH, /etc/ld.so.conf, d'exporter LD_LIBRARY_PATH ou de faire n'importe
 quelle modification nécessaire au fonctionnement du système.
 
@@ -23,7 +23,7 @@ et si vous n'avez pas de messages d'erreur, vous êtes sur le bon chemin. Dans
 le cas contraire, vous allez devoir encore vérifier votre installation.
 
 .. note:: Si vous avez compilé mapnik en mode debug, vous devriez voir
-   apparaître le listing des source de données utilisables, incluant:
+   apparaître le listing des sources de données utilisables, incluant:
 
 .. sourcecode:: python
 
@@ -164,7 +164,7 @@ Cette étape peut être réalisée en ajoutant la ligne suivante au début du sc
 
     #!/usr/bin/env python
 
-Copier tout le texte ci_dessous et l'enregistrer dans un fichier portant le
+Copier tout le texte ci-dessous et l'enregistrer dans un fichier portant le
 nom world.py.
 
 .. sourcecode:: python
@@ -222,7 +222,7 @@ Lancer le script avec la commande:
   et essayer de changer les dimensions, les couleurs ou la source de donnée
   (en n'oubliant pas de choisir la bonne projection).
 
-Pour voir l'approche XML pour générer la même carte, allez voir le
+Pour voir l'approche XML pour générer la même carte, lisez le
 :doc:`Commencez avec mapnik et le XML (tutoriel 2) <XMLGettingStarted>` qui
 montre l'usage du XML pour la configuration de la carte.
 
