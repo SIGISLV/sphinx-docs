@@ -10,7 +10,7 @@ de première qualité avec une précision inférieure au pixel pour les données
 géographiques. Il a développé à partir de zéro en utilisant du C++ moderne
 et ne souffre donc pas de choix de conception hérités d'années d'existence.
 Quand il s'agit de gérer les tâches communes à la plupart des logiciels comme
-la gestion de la mémoire, les accès aux système de fichiers, la gestion des
+la gestion de la mémoire, les accès aux systèmes de fichiers, la gestion des
 expressions régulières ou bien d'autres fonctionnalités, Mapnik ne réinvente
 pas la roue, mais utilise les meilleures librairies standards de l'industrie
 logicielle issues de http://boost.org.
