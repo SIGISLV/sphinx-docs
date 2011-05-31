@@ -10,7 +10,7 @@ de première qualité avec une précision inférieure au pixel pour les données
 géographiques. Il a développé à partir de zéro en utilisant du C++ moderne
 et ne souffre donc pas de choix de conception hérités d'années d'existence.
 Quand il s'agit de gérer les tâches communes à la plupart des logiciels comme
-la gestion de la mémoire, les accès aux système de fichiers, la gestion des
+la gestion de la mémoire, les accès aux systèmes de fichiers, la gestion des
 expressions régulières ou bien d'autres fonctionnalités, Mapnik ne réinvente
 pas la roue, mais utilise les meilleures librairies standards de l'industrie
 logicielle issues de http://boost.org.
@@ -19,7 +19,7 @@ logicielle issues de http://boost.org.
 Historique
 ==========
 
-Le projet Mapnik a été débuté par un après-midi chaud 2005 par Artem Pavlenko.
+Le projet Mapnik a commencé par un après-midi chaud 2005 par Artem Pavlenko.
 La première version a été mise à disposition ...
 
 La version courante est la 0.7.1 qui est disponible au téléchargement sur
@@ -30,9 +30,9 @@ Communauté
 ==========
 
 La communauté Mapnik est organisée autour du site principal http://mapnik.org
-and du site de développement http://trac.mapnik.org sur lequel vous trouverez
+et du site de développement http://trac.mapnik.org sur lequel vous trouverez
 les dernières nouveautés sur Mapnik et son développement. Le site de
-développement est organisé comme un wiki qui contient beaucoups d'informations
+développement est organisé comme un wiki qui contient beaucoup d'informations
 utiles, et où vous pouvez contribuer librement en vous
 `enregistrant <http://trac.mapnik.org/register>`_.
 
@@ -50,10 +50,10 @@ Si vous préférez une communication plus directe , vous pouvez nous trouvez dan
 la salle **#mapnik** sur irc.freenode.net, n'hésitez pas à venir pour nous
 poser vos questions quand vous voulez.
 
-Plate-formes
+Plates-formes
 ============
 
-Mapnik est une boîte à outils multi-plate-formes qui fonctionne sur Windows,
+Mapnik est une boîte à outils multi-plates-formes qui fonctionne sur Windows,
 Mac, et Linux (depuis la version 0.4). Les utilisateurs font fonctionner
 généralement Mapnik sur Mac >=10.4.x (avec un processeur Intel comme PPC),
 comme sur Debian/Ubuntu, Fedora, Centos, OpenSuse, et FreeBSD.
@@ -62,7 +62,7 @@ Formats de données supportés
 ============================
 
 Mapnik utilise une architecture basée sur les plugins pour lire les différentes
-sources de données. Les plugins courants, considérés comme stable et compilés
+sources de données. Les plugins courants, considérés comme stables et compilés
 par défaut, sont:
 
 * *shape* - permet l'accès aux fichiers `Shape ESRI
@@ -72,8 +72,8 @@ par défaut, sont:
   `PostgreSQL <http://en.wikipedia.org/wiki/PostgreSQL>`_
 * *raster* - permet l'usage d'images TIFF rasters simples ou tuilées
 
-Les autres plugins ne sont as instables mais comme ils ont été rajoutés plus
-récemment et peuvent encore comporter quelques erreurs:
+Les autres plugins ne sont pas instables mais comme ils ont été rajoutés plus
+récemment, ils peuvent encore comporter quelques erreurs:
 
 * *gdal* - permet l'accès aux sources de données `GDAL
   <http://www.gdal.org/formats_list.html>`_
@@ -100,6 +100,6 @@ Futur
 =====
 
 Un grand nombre de développeurs et de contributeurs développent activement
-*mapnik2* qui deviendra dans le futur la version **0.8.0**. De plus, il est
+*mapnik2* qui deviendra dans la version **0.8.0**. De plus, il est
 planifié que la version **0.7.2** sorte prochainement.
 

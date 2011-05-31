@@ -34,7 +34,7 @@ distribution.
 Installer la bibliothèque Mapnik depuis les binaires
 ====================================================
 
-Les binaires Windows et MacOSX sont disponibles.Voir les instructions
+Les binaires Windows et MacOSX sont disponibles. Voir les instructions
 d'installation pour Windows et MacOSX.
 
   TODO: Avoir une server de compilation pour créer les binaires .deb et .rpm
