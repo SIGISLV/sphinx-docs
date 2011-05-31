@@ -51,7 +51,7 @@ la salle **#mapnik** sur irc.freenode.net, n'hésitez pas à venir pour nous
 poser vos questions quand vous voulez.
 
 Plates-formes
-============
+=============
 
 Mapnik est une boîte à outils multi-plates-formes qui fonctionne sur Windows,
 Mac, et Linux (depuis la version 0.4). Les utilisateurs font fonctionner
