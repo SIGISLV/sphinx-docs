@@ -24,11 +24,73 @@ Windows installation
 
 Installing Mapnik on windows consists of following steps:
 
-1. Install prerequisites
-2. Download and unzip Mapnik binary
-3. Set your system and/or users environment variables
+1. Install system prerequisites
 
-Each of this steps is explained in detail ..here..!
+Because Mapnik binary was built using with Visual C++ 2008 Express, 
+it requires vc90 runtime. To solve this, go to download 
+the C++ runtimes from `microsoft website <http://www.microsoft.com/en-us/download/details.aspx?id=5582>`_
+and install it.
+
+2. Install Python 2.7
+
+Always because of the build, provided python bindings support for now 
+just Python version 2.7 32 bit (not 64 bit) which can be downloaded from 
+`official Python website <http://www.python.org/ftp/python/2.7.3/python-2.7.3.msi>`_ 
+Install it.
+Now you have to install python to your path (it means you will have 
+access to python throught DOS command line)
+For this, steps to follow are:
+
+* right-click "My Computer" and click "Properties".
+* in "System Properties" window, click on the "Advanced" tab.
+* from "Advanced section", click on "Environment Variables".
+* in "Environment Variables" window, click on the "Path" variable in the "Systems Variable" section.
+* after, click on "Edit".
+* at the end of "Path", add ``;c:\Python27;C:\Python27\Scripts``, click "Ok"
+* open a new command line and type "python" to confirm it works and go out typing "exit()"
+
+3. Download, unzip and configure Mapnik binary
+
+Go to retrieve `the binary <https://github.com/downloads/mapnik/mapnik/mapnik-2.0.1rc0.zip>`_
+and simply unzip the archive into ``c:/mapnik-2.0.1rc0``
+
+Set your system and/or users environment variables for Mapnik:
+
+* set system "Path" adding at the end ``;c:\mapnik-2.0.1rc0\lib`` like you've done for Python
+
+* launch a new DOS command line and then you should be able to run the demo program: ::
+
+      cd c:\mapnik-2.0.1rc0\demo\c++
+      rundemo ..\..\lib\mapnik
+
+* You'll get something like this ::
+  
+      running demo ...
+      looking for 'shape.input' plugin in... ..\..\lib\mapnik/input/
+      looking for DejaVuSans font in... ..\..\lib\mapnik/fonts/DejaVuSans.ttf
+      Three maps have been rendered using AGG in the current directory:
+      - demo.jpg
+      - demo.png
+      - demo256.png
+      - demo.tif
+      Have a look!
+      Three maps have been rendered using Cairo in the current directory:
+      - cairo-demo.png
+      - cairo-demo256.png
+      - cairo-demo.pdf
+      - cairo-demo.svg
+      Have a look!
+
+* set mapnik python environment
+
+You also have to use the python bindings to enable them adding a new 
+system environment variable called PYTHONPATH and affect it ``c:\mapnik-2.0.1rc0\python\2.7\site-packages;``
+
+Then you should be able to run the python demo after you open a new DOS shell:
+::
+    cd c:\mapnik-2.0.1rc0\demo\python
+    python rundemo.py
+
 
 Linux installation
 ------------------
@@ -98,7 +160,8 @@ If you don't get 2.x.x version, you will maybe need to make::
 
    >>> import mapnik2
 
-This case, was to avoid namespace collision in python when mapnik 2.0 version wasn't the current version and users already get a 0.7.x version.
+This case, was to avoid namespace collision in python when mapnik 2.0 
+version wasn't the current version and users already get a 0.7.x version.
 
 Now, that's it you are ready to create your first map using Python
 scripting language.
